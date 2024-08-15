@@ -1,0 +1,113 @@
+.footer-body {
+    height: 15vh;
+    background: linear-gradient(to top, rgb(0, 136, 255), rgba(20, 115, 137, 0.7));
+    padding: 10px 10vw;
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; bottom: 0; */
+    @media screen and (max-width: 781px) {
+        height: 40vh;
+        flex-direction: row;
+    }
+}
+
+.footer-panel {
+    display: flex;
+    place-content: center;
+    margin: 0 auto;
+    /* width: 50%; */
+    @media screen and (max-width: 781px) {
+        flex-direction: column;;
+    }
+}
+
+.footer-2-col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2em;
+}
+
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin: -1.8em 0 -1.4em 0;
+}
+
+.images>div {
+    display: flex;
+    height: 100%;
+    @media screen and (max-width: 781px) {
+        height: 50%;
+    }
+    place-content: center;
+    align-content: center;
+}
+
+.social-media-links {
+    /* background: #0BCFE6; */
+    /* padding: 2vh 42vw 0 42vw; */
+    /* height: 5vh; */
+    display: flex;
+    align-items: center;
+    place-content: end;
+    margin: 0 0 0.6em 2em;
+    gap: 0.5em;
+    /* justify-content: space-around; */
+}
+
+.social-media-links img {
+    height: 4vh;
+    width: auto;
+}
+
+.copyright {
+    font-size: 0.8em;
+    height: 5vh;
+    text-align: right;
+    color: white;
+    /* background: linear-gradient(#0BCFE6, #FFFFFF); */
+    @media screen and (max-width: 781px) {
+        margin-top: 20vh;
+    }
+}
+
+.copyright-text {
+    /* font-size: 10px; */
+}
+
+.credit {
+    /* font-size: 11px; */
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.footer-insignia {
+    /* width: 5vw;
+    height: 7vw; */
+    /* width: 20vw;
+    height: 68.4vw; */
+    margin: 0;
+}
+
+.footer-ieee img{
+    margin: 20% 0;
+    /* width: 20vh; */
+    height: 4vh;
+}
+
+.footer-clg-name {
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    /* line-height: 0; */
+    place-content: center;
+    line-height: 1;
+    margin-top: 10%;
+    @media screen and (max-width: 781px) {
+        display: none;
+    }
+}

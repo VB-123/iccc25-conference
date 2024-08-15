@@ -1,0 +1,100 @@
+* {
+    line-height: 1.8;
+}
+
+.paper-submission-container {
+    /* background: linear-gradient(135deg, #000033, #000066); */
+    color: black;
+    min-height: 100vh;
+    padding: 10vh 5vw;
+
+    @media screen and (max-width: 781px) {
+        padding-top: 15vh;
+    }
+
+    a {
+        color: rgb(51, 193, 211);
+    }
+}
+
+.paper-submission-container > h1 {
+    color: navy;
+    text-align: center;
+}
+
+.paper-submission-container h2 {
+    text-align: center;
+    color: navy;
+}
+
+.paper-submission-container li {
+    line-height: 150%;
+}
+
+.gridlike {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width:781px) {
+        flex-direction: column;
+    }
+
+    place-content: center;
+}
+
+.instructions {
+    width: 55%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(0, 0, 0, 0.5);;
+    backdrop-filter: blur(8px);
+    border-radius: 25px; */
+    /* padding: 20px; */
+    word-wrap: break-word;
+
+    @media screen and (max-width: 781px) {
+        width: 100%;
+        padding: 0px;
+        margin: 20px 0;
+    }
+}
+
+.head {
+    /* background-color: gray; color: white; font-weight: 900; */
+    border: 1px blue solid;
+    text-align: center;
+}
+
+.instructions-table {
+    /* place-content: center; */
+    text-align: left;
+z
+    /* .head {
+        /* background-color: gray; color: white; font-weight: 900; */
+        /* border: 1px blue solid; */
+        /* text-align: center; */
+
+
+    tr {
+        /* border-style: 1px blue solid; */
+    }
+}
+
+.paper-submission-container th, td {
+    border-collapse: collapse;
+    padding: 1vh 1vw;
+    border: none;
+}
+
+
+.instructions, .paper-upload {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.paper-submission-container .head, .paper-submission-container .highlighted {
+    background-color: navy;
+    border: none;
+    color: white;
+}
